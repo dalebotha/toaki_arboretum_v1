@@ -9,4 +9,5 @@ I do plan on upgrading it in the following ways:
 * Add some aesthetic sugar to make it more pleaasing to the eye
 * Add some UX features
 
+## Some screenshots
 <img src="https://github.com/dalebotha/tokai_arboretum_v1/blob/master/images/name-search.png" width="45%"></img> <img src="https://github.com/dalebotha/tokai_arboretum_v1/blob/master/images/number-search.png" width="45%"></img> 
