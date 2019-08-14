@@ -1,0 +1,26 @@
+<div id="treeCtrl">
+	<div class="nav" ><a href="#/about">About</a></div>
+	<div id="result"></div>
+	<table id="inputTable">
+		<th><input class="span6" ng-model="search.number" placeholder="Number"></th>
+		<th><input class="span6" ng-model="search.query" placeholder="Other Info"></th>
+	</table>
+
+
+	<table id="treeTable">
+		<th class="tableCol">Tree Numbers</th>
+		<th class="tableCol">Scientific Name</th>
+		<th class="tableCol">Common Names</th>
+		<th class="tableCol">Origin</th>
+		
+		<tr ng-repeat="tree in treeList | filter:search.query | numFilter: search.number">
+
+			<td ng-class-odd="'odd'" id="numbers">{{tree[2][2] | strangeFilter}}</td>
+			<td ng-class-odd="'odd'" id="scientificName"><a href="{{tree[1]}}">{{tree[0]}} <img src="/css/icon1.png"></a></td>
+			<td ng-class-odd="'odd'" id="commonName"><span>{{tree[2][0] | nameFilter}}</span></td>
+			<td ng-class-odd="'odd'" id="origin">{{tree[2][1]}}</td>
+			
+		</tr>
+	</table>
+
+</div>
