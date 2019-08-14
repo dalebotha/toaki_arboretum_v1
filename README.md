@@ -6,7 +6,7 @@ I often went walking in the arboretum and there are many species of trees from a
 I do plan on upgrading it in the following ways:
 * Have a single search field (instead of 2)
 * Add better responsiveness
-* Add some aesthetic sugar to make it more pleaasing to the eye
+* Add some aesthetic sugar to make it more pleasing to the eye
 * Add some UX features
 
 ## Some screenshots
